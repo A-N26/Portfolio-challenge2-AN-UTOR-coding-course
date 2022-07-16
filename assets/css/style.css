@@ -1,0 +1,208 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display:flexbox;
+    flex-wrap: wrap;
+
+}
+body {
+    background-color: antiquewhite;
+}
+section {
+    max-width: 1000px;
+    margin: auto;
+}
+.NAGAR {
+    color: red;
+}
+.menu-bar {
+    background-color: black;
+    border-radius: 10px;
+    border: 2px outset red;
+    box-shadow: 0 5px 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    float: right;
+    text-align: center;
+    color: aquamarine;
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover {
+    background-color: chartreuse;
+    color: yellow;
+}
+a.active {
+    color: red;
+}
+.nav {
+    position: sticky;
+    cursor: pointer;
+    display: none;
+}
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 0 5px 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.hero img {
+    height: 400px;
+    width: 450px;
+    margin-left:255px;
+    
+}
+h1 {
+    background-image: url("assets/images/NAGAR.png");
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+.bio-animated {
+    text-align: center;
+    position: absolute;
+}
+.bio-info {
+    text-align: left;
+    margin-left: 125px;
+}
+.AboutMe h2 {
+    text-align: center;
+}
+.more {
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px;
+    border: 5px outset black;
+    display: flex;
+    justify-content: center;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px;
+    border: 2px outset black;
+    position: fixed;
+    left: 92%;
+    bottom: 30%;
+}
+.social-icon {
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+}
+.MySkills {
+    text-align: center;
+}
+.s-wrap img {
+    padding: 1.5px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+}
+.p-head {
+    text-align: center;
+}
+.p-content {
+    height:auto;
+    width: auto;
+}
+.pro-card {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.pro-card p {
+    padding: 0.5px;
+}
+.pro-t {
+    margin-bottom: 1px;
+}
+.pro-d {
+    margin-bottom: 1px;
+}
+.pro-link {
+    display: block;
+    height: 310px;
+    width: 230px;
+}
+.contactMe h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.contact-list-content {
+    border-radius: 5px;
+    box-shadow: 0 5px 10px;
+}
+.contact-list-content label {
+    font-weight: bold;
+}
+.contact-list-content textarea {
+    font-size: 20px;
+}
+.contact-list-content, .input-field {
+    border: none;
+    border: 2px outset black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    font-size: 15px;
+}
+.input-field::placeholder {
+    padding: 450px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.send {
+    font-size: 20px;
+    margin: 1px 200px;
+    padding: 1px;
+    width: 61%;
+    color:blue;
+}
+.send:hover {
+    cursor: pointer;
+}
+.Scroll-up {
+    bottom: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 1200px;
+}
+.Scroll-up img {
+    height: 100px;
+}
+footer {
+    color: black;
+    font-size: 16px;
+    bottom: 0;
+    position: fixed;
+    padding-left: 390px;
+    text-align: center;
+}
+.git {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 1px;
+}
