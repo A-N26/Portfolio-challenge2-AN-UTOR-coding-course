@@ -34,13 +34,14 @@ Other than the timing challenge because of my job's wonky timings and length the
 
     - As mentioned above my biggest challenge (and infinitely frustrating one) ended up being the media queries for screen size responses. Sadly, to my disappointment i havent been able to overcome the challenge asit only kept on getting messier and messier from the start...
     - other challenges I have managed to overcome.
+    -Just in the case github deployment fails to work again (showing a constant, non-changing 404 error like assessment 1), here in the link for the netlify url: (https://port-cha2-947e1c.netlify.app/)
 
 ## Images
 
-![alt text](./screenshot/My Portfolio.png)
+![alt text](screenshot/My Portfolio.png)
 
 ## Badges
 
 ![badmath](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![badmath](https://img.shields.io/badge/CSS-Style-blue)
-![[badmath](https://img.shields.io/badge/JS-JavaScript-yellow)
+![badmath](https://img.shields.io/badge/JS-JavaScript-yellow)
