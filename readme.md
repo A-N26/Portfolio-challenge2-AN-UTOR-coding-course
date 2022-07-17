@@ -43,4 +43,4 @@ Other than the timing challenge because of my job's wonky timings and length the
 
 ![badmath](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![badmath](https://img.shields.io/badge/CSS-Style-blue)
-![[badmath](https://img.shields.io/badge/JS-JavaScript-yellow)
+![badmath](https://img.shields.io/badge/JS-JavaScript-yellow)
