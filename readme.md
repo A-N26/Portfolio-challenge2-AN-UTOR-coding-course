@@ -38,7 +38,7 @@ Other than the timing challenge because of my job's wonky timings and length the
 
 ## Images
 
-![alt text](./screenshot/My Portfolio.png)
+![alt text](screenshot/My Portfolio.png)
 
 ## Badges
 
