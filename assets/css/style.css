@@ -3,23 +3,22 @@ html {
 }
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     display:flexbox;
     flex-wrap: wrap;
-
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color: antiquewhite;
 }
 section {
-    max-width: 1000px;
     margin: auto;
+    max-width: 1000px;
 }
 .menu-bar {
     background-color: black;
-    border-radius: 10px;
     border: 2px outset red;
+    border-radius: 10px;
     box-shadow: 0 5px 10px;
     overflow: hidden;
     padding: 5px;
@@ -28,13 +27,13 @@ ul {
     list-style-type: none;
 }
 a {
-    float: right;
-    text-align: center;
     color: aquamarine;
+    float: right;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
     padding: 10px;
     padding-left: 30px;
-    text-decoration: none;
-    font-size: 30px;
 }
 a:hover {
     background-color: chartreuse;
@@ -44,32 +43,32 @@ a.active {
     color: red;
 }
 .nav {
-    position: sticky;
     cursor: pointer;
     display: none;
+    position: sticky;
 }
 .hero {
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 15px;
     border: 5px solid black;
+    border-radius: 15px;
     box-shadow: 0 5px 10px;
-    position: relative;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 10px;
+    position: relative;
+    text-align: center;
 }
 .hero img {
-    height: 400px;
-    width: 450px;
-    margin:auto;
-    margin-left:255px;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
+    height: 400px;
     justify-content: center;
-    align-items: center;
+    margin:auto;
+    margin-left:255px;
+    width: 450px;
 }
 .bio {
     margin-top: 175px;
@@ -77,43 +76,43 @@ a.active {
     position: absolute;
 }
 h1 {
-    text-align: center;
     font-family: cursive;
     font-size: 35px;
+    text-align: center;
 }
 .NAGAR {
     color: darkred;
 }
 .bio-info {
-    text-align: left;
     margin-left: 125px;
+    text-align: left;
 }
 .AboutMe h2 {
     text-align: center;
 }
 .more {
-    text-align: center;
+    border: 5px outset black;
     border-radius: 5px;
     box-shadow: 0 5px 10px;
-    border: 5px outset black;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .socials {
     align-items: center;
-    justify-content:center;
-    display: flex;
-    flex-direction: column;
+    bottom: 30%;
+    border: 2px outset black;
     border-radius: 5px;
     box-shadow: 0 5px 10px;
-    border: 2px outset black;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     left: 92%;
-    bottom: 30%;
+    position: fixed;
 }
 .social-icon {
-    margin-right: 15px;
     height: 30px;
+    margin-right: 15px;
     width: 30px;
 }
 .MySkills {
@@ -123,27 +122,28 @@ h1 {
     padding: 1.5px;
 }
 .icon {
-    width: 100px;
     height: 100px;
+    width: 100px;
 }
 .p-head {
     text-align: center;
 }
 .p-content {
-    height:auto;
-    width: auto;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height:auto;
+    overflow: hidden;
+    width: auto;
 }
 .pro-card {
     align-items: center;
-    text-align: center;
-    justify-content:center;
-    padding: 5px;
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    padding: 5px;
+    
 }
 .pro-card p {
     padding: 0.5px;
@@ -160,8 +160,8 @@ h1 {
     margin-bottom: 1px;
 }
 .contactMe h2 {
-    text-align: center;
     margin-bottom: 5px;
+    text-align: center;
 }
 .contact-list-content {
     border-radius: 5px;
@@ -177,25 +177,25 @@ h1 {
     border: none;
     border: 2px outset black;
     border-radius: 5px;
+    font-size: 15px;
     padding: 5px;
     width: 100%;
-    font-size: 15px;
 }
 .input-field::placeholder {
-    padding: 450px;
     color: blue;
     display: flex;
     justify-content: center;
+    padding: 450px;
 }
 .send {
-    font-size: 20px;
-    margin: 1px 450px;
-    padding-left: 16px;
-    width: 10%;
     color:blue;
     display: flex;
     flex-wrap: wrap;
+    font-size: 20px;
+    margin: 1px 450px;
+    padding-left: 16px;
     text-align: center;
+    width: 10%;
 }
 .send:hover {
     cursor: pointer;
@@ -203,18 +203,19 @@ h1 {
 .Scroll-up {
     bottom: 5px;
     cursor: pointer;
-    position: fixed;
     left: 1200px;
+    position: fixed;
+    
 }
 .Scroll-up img {
     height: 100px;
 }
 footer {
+    bottom: 0;
     color: black;
     font-size: 16px;
-    bottom: 0;
-    position: fixed;
     padding-left: 390px;
+    position: fixed;
     text-align: center;
 }
 .git {
