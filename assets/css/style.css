@@ -16,9 +16,6 @@ section {
     max-width: 1000px;
     margin: auto;
 }
-.NAGAR {
-    color: red;
-}
 .menu-bar {
     background-color: black;
     border-radius: 10px;
@@ -60,24 +57,32 @@ a.active {
     position: relative;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 10px;
 }
 .hero img {
     height: 400px;
     width: 450px;
+    margin:auto;
     margin-left:255px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bio {
+    margin-top: 175px;
+    text-align: center;
+    position: absolute;
 }
 h1 {
-    background-image: url("assets/images/NAGAR.png");
     text-align: center;
     font-family: cursive;
     font-size: 35px;
 }
-.bio-animated {
-    text-align: center;
-    position: absolute;
+.NAGAR {
+    color: darkred;
 }
 .bio-info {
     text-align: left;
@@ -95,6 +100,8 @@ h1 {
     justify-content: center;
 }
 .socials {
+    align-items: center;
+    justify-content:center;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -125,9 +132,15 @@ h1 {
 .p-content {
     height:auto;
     width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .pro-card {
+    align-items: center;
     text-align: center;
+    justify-content:center;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -135,16 +148,16 @@ h1 {
 .pro-card p {
     padding: 0.5px;
 }
+.pro-link {
+    display: contents;
+    height: 310px;
+    width: 230px;
+}
 .pro-t {
     margin-bottom: 1px;
 }
 .pro-d {
     margin-bottom: 1px;
-}
-.pro-link {
-    display: block;
-    height: 310px;
-    width: 230px;
 }
 .contactMe h2 {
     text-align: center;
@@ -176,10 +189,13 @@ h1 {
 }
 .send {
     font-size: 20px;
-    margin: 1px 200px;
-    padding: 1px;
-    width: 61%;
+    margin: 1px 450px;
+    padding-left: 16px;
+    width: 10%;
     color:blue;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 .send:hover {
     cursor: pointer;
