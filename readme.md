@@ -25,7 +25,7 @@ Other than the timing challenge because of my job's wonky timings and length the
           - A functioning scroll button with image as the button.
           - A footer section with github link to access profileand projects right from the portfolio. <find and click the kitty for github>.
     Css code:
-        - Properties per element to make adjustments to satisfy the look, feel and functionality of the webpage. Hopefully in a good symentic ordering.
+        - Properties per element to make adjustments to satisfy the look, feel and functionality of the webpage. Hopefully in a good symentic ordering for the child properties. Left the parent properties in the order they are to matchup with the positioning of the elements in html and on webpage.
         - tried my hardest to add media queries for screen size responsiveness but the more I kept on trying to fix it per different sizes, the harder it became and the more messed up it got at all other sizes...rather than submit a completely messed up work I ended up removing it for now.
     Javascript code:
         - Added QuerySelector and eventlistener tags for scroll functionality to be responsive.
